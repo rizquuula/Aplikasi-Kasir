@@ -32,10 +32,5 @@ while loop:
         
 for i in range(count):
     print('|',i,'. ',Stuff[i],end='     ')
-    sys.stdout.write("\x1b7\x1b[%d;%df%s\x1b8" % (7, i, Price[i]))
-    #sys.stdout.flush()
-    sys.stdout.write("\x1b7\x1b[%d;%df%s\x1b8" % (11, i, Number[i]))
-    sys.stdout.flush()
-    print 
-    #print(Price[i],end='     ')
-    #print(Number[i])
+    print(Price[i],end='     ')
+    print(Number[i])
